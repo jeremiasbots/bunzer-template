@@ -1,0 +1,17 @@
+{
+  "name": "bunzer-template",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "start": "bun create.ts > build.ts && bun build.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@bunland/lauri": "github:Bunland/lauri"
+  }
+}
